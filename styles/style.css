@@ -162,7 +162,6 @@
 .table {
   list-style: none;
   display: flex;
-  list-style: none;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
