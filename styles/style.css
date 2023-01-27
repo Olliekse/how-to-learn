@@ -47,10 +47,7 @@
 }
 
 .header__title {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 0;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   max-width: 730px;
   z-index: 3;
   font-weight: 600;
@@ -64,7 +61,7 @@
   max-width: 388px;
   left: 64px;
   bottom: 30px;
-  margin: auto;
+  margin: 0 auto;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -152,7 +149,8 @@
 }
 
 .section-subtitle {
-  margin: 0 auto;
+  margin-bottom: 0;
+  margin-top: 0;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -267,27 +265,6 @@
   background-repeat: no-repeat;
 }
 
-.section-title {
-  z-index: 2;
-  width: 60%;
-  text-align: center;
-  margin: 0 auto;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
-
-.section-subtitle {
-  z-index: 2;
-  text-align: center;
-  width: 60%;
-  margin-top: 20px;
-  margin-bottom: 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
 .table__cell_theme_dark {
   width: 200px;
   color: #ffffff;
@@ -301,7 +278,6 @@
 }
 
 .section-title_theme_dark {
-  margin: 0 auto;
   color: #ffffff;
   z-index: 2;
 }
@@ -344,14 +320,13 @@
 }
 
 .footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
   flex-basis: 711px;
   justify-content: space-between;
 }
 
 .logo_place_footer {
-/* Not sure what to put here. Maybe put the logo as a background image instead?  */
+  /* Not really sure what to put here. Maybe have the picture as a background image inside a 'div' instead, although the brief doesn't mention this... */
+  margin: 0;
 }
 
 .footer__author {
@@ -369,6 +344,7 @@
 }
 
 .footer__column-links {
+  margin-top: 0;
   padding: 0;
   list-style: none;
   display: flex;
