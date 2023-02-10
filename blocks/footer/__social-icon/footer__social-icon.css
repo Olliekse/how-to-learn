@@ -4,7 +4,7 @@
     margin-right: 10px;
   }
 
-  .footer__social.icon:hover {
+  .footer__social-icon:hover {
     opacity:0.5;
     transition: 0.5s;
   }
